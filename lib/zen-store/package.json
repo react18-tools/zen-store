@@ -46,13 +46,7 @@
 	},
 	"peerDependencies": {
 		"@types/react": "16.8 - 18",
-		"next": "10 - 14",
 		"react": "16.8 - 18"
-	},
-	"peerDependenciesMeta": {
-		"next": {
-			"optional": true
-		}
 	},
 	"funding": {
 		"type": "github",
