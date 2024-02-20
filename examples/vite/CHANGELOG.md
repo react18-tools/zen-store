@@ -1,5 +1,13 @@
 # vite-example
 
+## 0.0.1
+
+### Patch Changes
+
+- Updated dependencies
+  - zen-store@0.0.1
+  - shared-ui@0.0.0
+
 ## 0.0.5
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @mayank1513/fork-me
 
+## 0.0.1
+
+### Patch Changes
+
+- Create first release
+
 ## 2.0.1
 
 ### Patch Changes
