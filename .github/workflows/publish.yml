@@ -4,7 +4,7 @@ name: Publish to NPM
 on:
   push:
     branches: [main]
-    paths: "lib/fork-me/package.json"
+    paths: "lib/zen-store/package.json"
 
 jobs:
   publish:
@@ -19,7 +19,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./lib/fork-me
+        working-directory: ./lib/zen-store
 
     steps:
       - uses: actions/checkout@v3
