@@ -4,7 +4,7 @@ export function ExamplesCard() {
 	return (
 		<a
 			className={styles.card}
-			href="https://github.com/react18-tools/turborepo-template"
+			href="https://github.com/mayank1513/zen-store"
 			rel="noopener noreferrer"
 			target="_blank">
 			<h2>
