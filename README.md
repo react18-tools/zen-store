@@ -1,3 +1,7 @@
+> Archiving this repo as npm package with similar name already exists. Please follow [React18GlobalStore](https://github.com/react18-tools/r18gs) for the latest updates.
+
+- https://github.com/react18-tools/r18gs
+
 # zen-store
 
 [![test](https://github.com/mayank1513/zen-store/actions/workflows/test.yml/badge.svg)](https://github.com/mayank1513/zen-store/actions/workflows/test.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/b312003ee4446361e265/maintainability)](https://codeclimate.com/github/react18-tools/zen-store/maintainability) [![codecov](https://codecov.io/gh/mayank1513/zen-store/graph/badge.svg)](https://codecov.io/gh/mayank1513/zen-store) [![Version](https://img.shields.io/npm/v/zen-store.svg?colorB=green)](https://www.npmjs.com/package/zen-store) [![Downloads](https://img.jsdelivr.com/img.shields.io/npm/dt/zen-store.svg)](https://www.npmjs.com/package/zen-store) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/zen-store) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
