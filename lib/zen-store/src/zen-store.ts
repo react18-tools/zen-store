@@ -33,24 +33,17 @@ export default function useZenStore<T>(
 		(val: SetterArgType<T>) => {
 			const store = globalThis.zenStore[key] as ZenStore;
 			store.value = val instanceof Function ? val(store.value as T) : val;
-			store.listeners.forEach(listener => {
-				listener();
-			});
+			for (const listener of store.listeners) listener();
 		},
 		[key],
 	);
 	const subscribe = useCallback(
 		(listener: () => void) => {
-			if (!globalThis.zenStore[key]) {
-				globalThis.zenStore[key] = {
-					listeners: [],
-					value,
-				};
-			}
-			const state = globalThis.zenStore[key] as ZenStore;
-			state.listeners.push(listener);
+			if (!globalThis.zenStore[key]) globalThis.zenStore[key] = { listeners: [], value };
+			const store = globalThis.zenStore[key] as ZenStore;
+			store.listeners.push(listener);
 			return () => {
-				state.listeners = state.listeners.filter(l => l !== listener);
+				store.listeners = store.listeners.filter(l => l !== listener);
 			};
 		},
 		[key, value],
